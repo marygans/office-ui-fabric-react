@@ -201,10 +201,10 @@ export class PanelBase extends BaseComponent<IPanelProps, IPanelState> implement
               elementToFocusOnDismiss={elementToFocusOnDismiss}
             >
               <div className={_classNames.commands} data-is-visible={true}>
+                {header}
                 {onRenderNavigation(this.props, this._onRenderNavigation)}
               </div>
               <div className={_classNames.contentInner}>
-                {header}
                 <div ref={this._allowScrollOnPanel} className={_classNames.scrollableContent} data-is-scrollable={true}>
                   {onRenderBody(this.props, this._onRenderBody)}
                 </div>
@@ -277,8 +277,7 @@ export class PanelBase extends BaseComponent<IPanelProps, IPanelState> implement
     if (!this.props.onRenderNavigationContent && !this.props.onRenderNavigation && !this.props.hasCloseButton) {
       return null;
     }
-    const { onRenderNavigationContent = this._onRenderNavigationContent } = this.props;
-    return <div className={this._classNames.navigation}>{onRenderNavigationContent(props, this._onRenderNavigationContent)}</div>;
+    return null;
   };
 
   private _onRenderNavigationContent = (props: IPanelProps): JSX.Element | null => {
@@ -324,11 +323,13 @@ export class PanelBase extends BaseComponent<IPanelProps, IPanelState> implement
     const { headerText } = props;
 
     if (headerText) {
+      const { onRenderNavigationContent = this._onRenderNavigationContent } = this.props;
       return (
         <div className={this._classNames.header}>
           <p className={this._classNames.headerText} id={headerTextId} role="heading" aria-level={2}>
             {headerText}
           </p>
+          <div className={this._classNames.navigation}>{onRenderNavigationContent(props, this._onRenderNavigationContent)}</div>
         </div>
       );
     }

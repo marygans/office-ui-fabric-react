@@ -294,6 +294,7 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
     ],
     header: [
       classNames.header,
+      { display: 'flex' },
       sharedPaddingStyles,
       {
         margin: '14px 0',
@@ -301,7 +302,7 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
         flexShrink: 0,
         selectors: {
           [`@media (min-width: ${ScreenWidthMinXLarge}px)`]: {
-            marginTop: '30px'
+            marginTop: '15px'
           }
         }
       }
@@ -309,6 +310,7 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
     headerText: [
       classNames.headerText,
       fonts.xLarge,
+      { display: 'flex', flex: 1 },
       {
         color: palette.neutralPrimary,
         lineHeight: '27px',
