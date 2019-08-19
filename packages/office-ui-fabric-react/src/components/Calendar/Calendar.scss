@@ -165,7 +165,7 @@ $Calendar-dayPicker-margin: 10px;
 .dayIsToday,
 .dayIsToday:hover {
   position: relative;
-  background-color: $ms-color-themeLight;
+  background-color: $ms-color-themeLighter;
   @include high-contrast {
     background-color: highlight;
     border-radius: 2px;
@@ -227,7 +227,7 @@ $Calendar-dayPicker-margin: 10px;
 
 .dayIsFocused:active,
 .dayIsHighlighted {
-  background: $ms-color-themeLight;
+  background: $ms-color-themeLighter;
 }
 
 .dayIsFocused:active,
@@ -262,7 +262,7 @@ $Calendar-dayPicker-margin: 10px;
 .dayPress:hover {
   cursor: pointer;
   font-weight: $ms-font-weight-semibold;
-  background: $ms-color-themeLight;
+  background: $ms-color-themeLighter;
   color: $ms-color-neutralPrimary;
   .dayIsToday {
     background: $ms-color-themePrimary;
@@ -277,7 +277,7 @@ $Calendar-dayPicker-margin: 10px;
 .weekBackground,
 .weekBackground:hover,
 .weekBackground:active {
-  background: $ms-color-themeLight;
+  background: $ms-color-themeLighter;
   color: $ms-color-neutralPrimary;
   font-weight: $ms-font-weight-semibold;
 }
@@ -752,7 +752,7 @@ $Calendar-dayPicker-margin: 10px;
     }
   }
   &:active {
-    background-color: $ms-color-themeLight;
+    background-color: $ms-color-themeLighter;
     @include high-contrast {
       color: highlight;
     }
@@ -761,10 +761,10 @@ $Calendar-dayPicker-margin: 10px;
 
 .monthIsHighlighted {
   font-weight: $ms-font-weight-semibold;
-  background-color: $ms-color-themeLight;
+  background-color: $ms-color-themeLighter;
   color: $ms-color-neutralPrimary;
   &.monthOption:hover {
-    background-color: $ms-color-themeLight;
+    background-color: $ms-color-themeLighter;
   }
   @include high-contrast {
     color: highlight;
@@ -788,16 +788,16 @@ $Calendar-dayPicker-margin: 10px;
 }
 
 .monthOption:active {
-  background-color: $ms-color-themeLight;
+  background-color: $ms-color-themeLighter;
   color: $ms-color-neutralDark;
 }
 
 .yearIsHighlighted {
   font-weight: $ms-font-weight-semibold;
-  background-color: $ms-color-themeLight;
+  background-color: $ms-color-themeLighter;
   color: $ms-color-neutralPrimary;
   &.yearOption:hover {
-    background-color: $ms-color-themeLight;
+    background-color: $ms-color-themeLighter;
   }
 }
 
@@ -813,7 +813,7 @@ $Calendar-dayPicker-margin: 10px;
 }
 
 .yearOption:active {
-  background-color: $ms-color-themeLight;
+  background-color: $ms-color-themeLighter;
   color: $ms-color-neutralDark;
 }
 

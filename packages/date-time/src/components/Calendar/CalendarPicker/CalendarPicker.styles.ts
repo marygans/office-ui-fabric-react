@@ -4,7 +4,7 @@ import { AnimationDirection } from '../Calendar.types';
 
 export const getStyles = (props: ICalendarPickerStyleProps): ICalendarPickerStyles => {
   const { className, theme, hasHeaderClickCallback, highlightCurrent, highlightSelected, animateBackwards, animationDirection } = props;
-  const { palette } = theme;
+  const { palette, semanticColors } = theme;
 
   let animationStyle: IRawStyle = {};
   if (animateBackwards !== undefined) {
@@ -128,7 +128,7 @@ export const getStyles = (props: ICalendarPickerStyleProps): ICalendarPickerStyl
             outline: '1px solid transparent'
           },
           '&:active': {
-            backgroundColor: palette.themeLight
+            backgroundColor: semanticColors.inputPlaceholderBackgroundChecked
           }
         }
       }
@@ -150,14 +150,14 @@ export const getStyles = (props: ICalendarPickerStyleProps): ICalendarPickerStyl
     selected: highlightSelected
       ? {
           color: palette.neutralPrimary,
-          backgroundColor: palette.themeLight,
+          backgroundColor: semanticColors.inputPlaceholderBackgroundChecked,
           fontWeight: FontWeights.semibold,
           selectors: {
             '& div': {
               fontWeight: FontWeights.semibold
             },
             '&:hover, &:active': {
-              backgroundColor: palette.themeLight
+              backgroundColor: semanticColors.inputPlaceholderBackgroundChecked
             }
           }
         }
