@@ -154,7 +154,7 @@ const commandBarHeight = '44px';
 
 const sharedPaddingStyles = {
   paddingLeft: '16px',
-  paddingRight: '16px'
+  paddingRight: '5px'
 };
 
 // // TODO -Issue #5689: Comment in once Button is converted to mergeStyles
@@ -297,13 +297,11 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
       { display: 'flex' },
       sharedPaddingStyles,
       {
-        margin: '14px 0',
+        margin: '5px 0',
         // Ensure that title doesn't shrink if screen is too small
         flexShrink: 0,
         selectors: {
-          [`@media (min-width: ${ScreenWidthMinXLarge}px)`]: {
-            marginTop: '15px'
-          }
+          [`@media (min-width: ${ScreenWidthMinXLarge}px)`]: {}
         }
       }
     ],
@@ -313,8 +311,8 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
       { display: 'flex', flex: 1 },
       {
         color: palette.neutralPrimary,
+        marginTop: '8px',
         lineHeight: '27px',
-        margin: 0,
         overflowWrap: 'break-word',
         wordWrap: 'break-word',
         wordBreak: 'break-word',
@@ -336,6 +334,7 @@ export const getStyles = (props: IPanelStyleProps): IPanelStyles => {
       sharedPaddingStyles,
       {
         marginBottom: 0,
+        paddingTop: 20,
         paddingBottom: 20
       }
     ],
