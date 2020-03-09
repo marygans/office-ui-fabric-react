@@ -76,6 +76,8 @@ export class MarqueeSelectionBase extends BaseComponent<IMarqueeSelectionProps, 
     if (this._autoScroll) {
       this._autoScroll.dispose();
     }
+    delete this._scrollableParent;
+    delete this._scrollableSurface;
   }
 
   public render(): JSX.Element {
@@ -109,7 +111,7 @@ export class MarqueeSelectionBase extends BaseComponent<IMarqueeSelectionProps, 
       const targetRect = targetElement.getBoundingClientRect();
 
       // Check vertical scroll
-      if (getRTL()) {
+      if (getRTL(this.props.theme)) {
         if (ev.clientX < targetRect.left + targetScrollbarWidth) {
           return true;
         }

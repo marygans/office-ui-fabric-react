@@ -3,7 +3,7 @@
  * and the desired shade enum, this will return an appropriate shade of that color.
  */
 import { IHSV, IColor } from './interfaces';
-import { MAX_COLOR_RGBA } from './consts';
+import { MAX_COLOR_RGB } from './consts';
 import { assign } from '../../Utilities';
 import { clamp } from './clamp';
 import { getColorFromRGBA } from './getColorFromRGBA';
@@ -47,7 +47,6 @@ export enum Shade {
  * @param shade - The Shade value to validate.
  */
 export function isValidShade(shade?: Shade): boolean {
-  'use strict';
   return typeof shade === 'number' && shade >= Shade.Unshaded && shade <= Shade.Shade8;
 }
 
@@ -56,7 +55,7 @@ function _isBlack(color: IColor): boolean {
 }
 
 function _isWhite(color: IColor): boolean {
-  return color.r === MAX_COLOR_RGBA && color.g === MAX_COLOR_RGBA && color.b === MAX_COLOR_RGBA;
+  return color.r === MAX_COLOR_RGB && color.g === MAX_COLOR_RGB && color.b === MAX_COLOR_RGB;
 }
 
 function _darken(hsv: IHSV, factor: number): IHSV {
@@ -97,7 +96,6 @@ export function isDark(color: IColor): boolean {
  * @param isInverted - Default false. Whether the given theme is inverted (reverse strongen/soften logic)
  */
 export function getShade(color: IColor, shade: Shade, isInverted: boolean = false): IColor | null {
-  'use strict';
   if (!color) {
     return null;
   }
@@ -143,7 +141,6 @@ export function getShade(color: IColor, shade: Shade, isInverted: boolean = fals
 //   to be the darkest or lightest one. If it is <50% luminance, it will always be the darkest,
 //   otherwise it will always be the lightest.
 export function getBackgroundShade(color: IColor, shade: Shade, isInverted: boolean = false): IColor | null {
-  'use strict';
   if (!color) {
     return null;
   }
@@ -182,15 +179,15 @@ export function getContrastRatio(color1: IColor, color2: IColor): number {
     }
   }
 
-  const r1 = _getThing(color1.r / MAX_COLOR_RGBA);
-  const g1 = _getThing(color1.g / MAX_COLOR_RGBA);
-  const b1 = _getThing(color1.b / MAX_COLOR_RGBA);
+  const r1 = _getThing(color1.r / MAX_COLOR_RGB);
+  const g1 = _getThing(color1.g / MAX_COLOR_RGB);
+  const b1 = _getThing(color1.b / MAX_COLOR_RGB);
   let L1 = 0.2126 * r1 + 0.7152 * g1 + 0.0722 * b1; // relative luminance of first color
   L1 += 0.05;
 
-  const r2 = _getThing(color2.r / MAX_COLOR_RGBA);
-  const g2 = _getThing(color2.g / MAX_COLOR_RGBA);
-  const b2 = _getThing(color2.b / MAX_COLOR_RGBA);
+  const r2 = _getThing(color2.r / MAX_COLOR_RGB);
+  const g2 = _getThing(color2.g / MAX_COLOR_RGB);
+  const b2 = _getThing(color2.b / MAX_COLOR_RGB);
   let L2 = 0.2126 * r2 + 0.7152 * g2 + 0.0722 * b2; // relative luminance of second color
   L2 += 0.05;
 

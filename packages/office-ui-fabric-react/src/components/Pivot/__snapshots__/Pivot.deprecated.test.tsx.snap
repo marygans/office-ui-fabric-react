@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pivot renders link Pivot correctly 1`] = `
-<div>
+<div
+  role="toolbar"
+>
   <div
     className=
         ms-FocusZone
@@ -71,7 +73,6 @@ exports[`Pivot renders link Pivot correctly 1`] = `
               text-align: center;
               text-decoration: none;
               user-select: none;
-              vertical-align: top;
             }
             &::-moz-focus-inner {
               border: 0;
@@ -239,7 +240,6 @@ exports[`Pivot renders link Pivot correctly 1`] = `
               text-align: center;
               text-decoration: none;
               user-select: none;
-              vertical-align: top;
             }
             &::-moz-focus-inner {
               border: 0;

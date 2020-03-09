@@ -106,7 +106,6 @@ exports[`Component Examples renders TextField.CustomRender.Example.tsx correctly
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
                 width: 32px;
               }
               &::-moz-focus-inner {
@@ -197,10 +196,14 @@ exports[`Component Examples renders TextField.CustomRender.Example.tsx correctly
                     margin-right: 4px;
                     margin-top: 0;
                     text-align: center;
-                    vertical-align: middle;
                   }
               data-icon-name="Info"
               role="presentation"
+              style={
+                Object {
+                  "fontFamily": "\\"FabricMDL2Icons\\"",
+                }
+              }
             >
               
             </i>
@@ -430,7 +433,6 @@ exports[`Component Examples renders TextField.CustomRender.Example.tsx correctly
                 speak: none;
               }
           data-icon-name="Globe"
-          id="iconButton1"
           title="Globe"
         >
           
@@ -469,7 +471,7 @@ exports[`Component Examples renders TextField.CustomRender.Example.tsx correctly
       >
         <input
           aria-invalid={false}
-          aria-labelledby="label2"
+          aria-labelledby="TextFieldLabel11"
           className=
               ms-TextField-field
               {

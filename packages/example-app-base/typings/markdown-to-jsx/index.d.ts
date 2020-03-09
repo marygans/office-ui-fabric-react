@@ -5,16 +5,16 @@ declare module 'markdown-to-jsx' {
   export interface IMarkdownSettings {
     overrides: {
       [key: string]: {
-        component: string | React.ComponentClass<any> | React.StatelessComponent<any>;
+        component: string | React.ComponentClass<any> | React.FunctionComponent<any>;
         props?: any;
-      }
+      };
     };
   }
 
   export interface IMarkdownProps {
     options?: IMarkdownSettings;
-    children?: string | React.ComponentClass<any> | React.StatelessComponent<any>;
+    children?: string | React.ComponentClass<any> | React.FunctionComponent<any>;
   }
 
-  export default class Markdown extends React.Component<IMarkdownProps> { }
+  export default class Markdown extends React.Component<IMarkdownProps> {}
 }

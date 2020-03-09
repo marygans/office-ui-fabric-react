@@ -134,6 +134,7 @@ exports[`TagPicker renders correctly 1`] = `
                     text-overflow: ellipsis;
                     white-space: nowrap;
                   }
+              title="black"
             >
               black
             </span>
@@ -166,7 +167,6 @@ exports[`TagPicker renders correctly 1`] = `
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                     width: 30px;
                   }
                   &::-moz-focus-inner {
@@ -251,7 +251,6 @@ exports[`TagPicker renders correctly 1`] = `
                         margin-top: 0;
                         speak: none;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Cancel"
                 >
@@ -287,6 +286,9 @@ exports[`TagPicker renders correctly 1`] = `
                 padding-left: 6px;
                 padding-right: 6px;
                 padding-top: 0;
+              }
+              &::-ms-clear {
+                display: none;
               }
           data-lpignore={true}
           onBlur={[Function]}
@@ -442,6 +444,7 @@ exports[`TagPicker renders picker with selected item correctly 1`] = `
                     text-overflow: ellipsis;
                     white-space: nowrap;
                   }
+              title="text"
             >
               text
             </span>
@@ -474,7 +477,6 @@ exports[`TagPicker renders picker with selected item correctly 1`] = `
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                     width: 30px;
                   }
                   &::-moz-focus-inner {
@@ -559,7 +561,6 @@ exports[`TagPicker renders picker with selected item correctly 1`] = `
                         margin-top: 0;
                         speak: none;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Cancel"
                 >
@@ -595,6 +596,9 @@ exports[`TagPicker renders picker with selected item correctly 1`] = `
                 padding-left: 6px;
                 padding-right: 6px;
                 padding-top: 0;
+              }
+              &::-ms-clear {
+                display: none;
               }
           data-lpignore={true}
           onBlur={[Function]}

@@ -31,7 +31,6 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
           text-align: center;
           text-decoration: none;
           user-select: none;
-          vertical-align: top;
         }
         &::-moz-focus-inner {
           border: 0;
@@ -220,7 +219,6 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                     width: 32px;
                   }
                   &::-moz-focus-inner {
@@ -309,12 +307,12 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
                   style={
                     Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
                       "fontSize": "14px",
                     }
                   }
@@ -373,6 +371,7 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                         font-size: 14px;
                         font-weight: 400;
                       }
+                  role="presentation"
                 >
                   <div
                     className=
@@ -384,6 +383,7 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                           text-align: center;
                           width: 32px;
                         }
+                    role="presentation"
                   >
                     <div
                       aria-hidden="true"
@@ -536,7 +536,6 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                     width: 32px;
                   }
                   &::-moz-focus-inner {
@@ -625,12 +624,12 @@ exports[`Component Examples renders SelectedPeopleList.Controlled.Example.tsx co
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Cancel"
                   role="presentation"
                   style={
                     Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
                       "fontSize": "14px",
                     }
                   }

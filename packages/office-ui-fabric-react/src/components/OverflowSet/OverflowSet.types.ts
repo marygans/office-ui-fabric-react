@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { IFocusZoneProps } from '../../FocusZone';
+import { IFocusZoneProps } from '@fluentui/react-focus';
 import { IKeytipProps } from '../../Keytip';
 import { IStyle } from '../../Styling';
 import { IRefObject, IRenderFunction, IStyleFunctionOrObject } from '../../Utilities';
@@ -49,10 +49,17 @@ export interface IOverflowSetProps extends React.ClassAttributes<OverflowSetBase
 
   /**
    * Change item layout direction to vertical/stacked.
-   * Setting vertical to true also changes default role to "menu".
+   * If role is set to `menubar`, `vertical={true}` will also add proper `aria-orientation`.
    * @defaultvalue false
    */
   vertical?: boolean;
+
+  /**
+   * Controls wether or not the overflow button is placed at the start or end of the items.
+   * This gives a reveresed visual behavior but maintains correct keyboard navigation.
+   * @defaultValue 'end'
+   */
+  overflowSide?: 'start' | 'end';
 
   /**
    * An array of items to be passed to overflow contextual menu
@@ -74,6 +81,7 @@ export interface IOverflowSetProps extends React.ClassAttributes<OverflowSetBase
    * Custom properties for OverflowSet's FocusZone.
    * If doNotContainWithinFocusZone is set to true focusZoneProps will be ignored.
    * Use one or the other.
+   * @deprecated In 8.0 the OverflowSet will no longer be wrapped in a FocusZone
    */
   focusZoneProps?: IFocusZoneProps;
 
@@ -82,12 +90,13 @@ export interface IOverflowSetProps extends React.ClassAttributes<OverflowSetBase
    * otherwise the OverflowSet will contain a FocusZone.
    * If this is set to true focusZoneProps will be ignored.
    * Use one or the other.
+   * @deprecated In 8.0 the OverflowSet will no longer be wrapped in a FocusZone
    */
   doNotContainWithinFocusZone?: boolean;
 
   /**
    * The role for the OverflowSet.
-   * @defaultvalue 'menubar'
+   * @defaultvalue 'group'
    */
   role?: string;
 

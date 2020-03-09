@@ -14,7 +14,10 @@ exports[`Component Examples renders Pivot.Separate.Example.tsx correctly 1`] = `
       }
     }
   />
-  <div>
+  <div
+    aria-label="Separately Rendered Content Pivot Example"
+    role="toolbar"
+  >
     <div
       className=
           ms-FocusZone
@@ -84,7 +87,6 @@ exports[`Component Examples renders Pivot.Separate.Example.tsx correctly 1`] = `
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -252,7 +254,6 @@ exports[`Component Examples renders Pivot.Separate.Example.tsx correctly 1`] = `
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -410,7 +411,6 @@ exports[`Component Examples renders Pivot.Separate.Example.tsx correctly 1`] = `
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;

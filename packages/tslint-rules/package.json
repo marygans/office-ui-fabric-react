@@ -1,6 +1,6 @@
 {
   "name": "@uifabric/tslint-rules",
-  "version": "7.0.5",
+  "version": "7.1.0",
   "description": "Shared TSLint rules for UI Fabric projects",
   "main": "tslint.json",
   "repository": {
@@ -9,10 +9,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "tslint-react": "^3.2.0"
-  },
-  "devDependencies": {
-    "@uifabric/prettier-rules": "^7.0.4"
+    "tslint-react": "^3.2.0",
+    "tslint-config-prettier": "^1.18.0"
   },
   "peerDependencies": {
     "tslint": "*"

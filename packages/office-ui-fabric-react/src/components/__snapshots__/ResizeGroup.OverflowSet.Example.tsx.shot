@@ -79,7 +79,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -141,6 +140,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -182,10 +182,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -252,7 +256,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -314,6 +317,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -355,10 +359,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -425,7 +433,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -487,6 +494,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -528,10 +536,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -598,7 +610,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -660,6 +671,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -701,10 +713,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -771,7 +787,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -833,6 +848,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -874,10 +890,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -944,7 +964,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1006,6 +1025,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1047,10 +1067,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1117,7 +1141,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1179,6 +1202,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1220,10 +1244,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1290,7 +1318,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1352,6 +1379,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1393,10 +1421,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1463,7 +1495,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1525,6 +1556,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1566,10 +1598,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1636,7 +1672,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1698,6 +1733,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1739,10 +1775,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1809,7 +1849,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -1871,6 +1910,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -1912,10 +1952,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -1982,7 +2026,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2044,6 +2087,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2085,10 +2129,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -2155,7 +2203,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2217,6 +2264,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2258,10 +2306,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -2328,7 +2380,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2390,6 +2441,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2431,10 +2483,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -2501,7 +2557,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2563,6 +2618,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2604,10 +2660,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -2674,7 +2734,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2736,6 +2795,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2777,10 +2837,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -2847,7 +2911,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -2909,6 +2972,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -2950,10 +3014,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -3020,7 +3088,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -3082,6 +3149,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -3123,10 +3191,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Upload"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -3193,7 +3265,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -3255,6 +3326,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -3296,10 +3368,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Add"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -3366,7 +3442,6 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                     text-align: center;
                     text-decoration: none;
                     user-select: none;
-                    vertical-align: top;
                   }
                   &::-moz-focus-inner {
                     border: 0;
@@ -3428,6 +3503,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               onKeyUp={[Function]}
               onMouseDown={[Function]}
               onMouseUp={[Function]}
+              role="menuitem"
               type="button"
             >
               <span
@@ -3469,10 +3545,14 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                         margin-right: 4px;
                         margin-top: 0;
                         text-align: center;
-                        vertical-align: middle;
                       }
                   data-icon-name="Share"
                   role="presentation"
+                  style={
+                    Object {
+                      "fontFamily": "\\"FabricMDL2Icons\\"",
+                    }
+                  }
                 >
                   
                 </i>
@@ -4020,6 +4100,9 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
               &:focus .ms-Dropdown-title {
                 color: #201f1e;
               }
+              @media screen and (-ms-high-contrast: active){&:focus .ms-Dropdown-title {
+                color: Highlight;
+              }
               &:focus:after {
                 border-radius: 2px;
                 border: 2px solid #0078d4;
@@ -4033,12 +4116,8 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                 width: 100%;
               }
               @media screen and (-ms-high-contrast: active){&:focus:after {
-                background-color: Highlight;
                 border-color: Highlight;
-                color: HighlightText;
-              }
-              @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: black-on-white){&:focus:after {
-                -ms-high-contrast-adjust: none;
+                color: Highlight;
               }
               &:active .ms-Dropdown-title {
                 border-color: #0078d4;
@@ -4054,10 +4133,7 @@ exports[`Component Examples renders ResizeGroup.OverflowSet.Example.tsx correctl
                 color: #323130;
               }
               @media screen and (-ms-high-contrast: active){&:focus .ms-Dropdown-caretDown {
-                color: HighlightText;
-              }
-              @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: black-on-white){&:focus .ms-Dropdown-caretDown {
-                -ms-high-contrast-adjust: none;
+                color: Highlight;
               }
               &:active .ms-Dropdown-caretDown {
                 color: #323130;

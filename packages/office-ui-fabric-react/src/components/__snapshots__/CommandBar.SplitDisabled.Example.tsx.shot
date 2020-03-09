@@ -48,7 +48,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
           role="menubar"
         >
           <div
-            aria-orientation="horizontal"
             className=
                 ms-OverflowSet
                 ms-CommandBar-primaryCommand
@@ -59,7 +58,7 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                   flex-wrap: nowrap;
                   position: relative;
                 }
-            role="menubar"
+            role="group"
           >
             <div
               className=
@@ -127,6 +126,9 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                       background-color: Highlight;
                       color: Window;
                     }
+                    &:hover .ms-Button.is-disabled {
+                      color: #a19f9d;
+                    }
                     @media screen and (-ms-high-contrast: active){&:hover .ms-Button.is-disabled {
                       background-color: Window;
                       border-color: GrayText;
@@ -181,7 +183,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                           text-align: center;
                           text-decoration: none;
                           user-select: none;
-                          vertical-align: top;
                         }
                         &::-moz-focus-inner {
                           border: 0;
@@ -285,10 +286,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                         data-icon-name="Add"
                         role="presentation"
+                        style={
+                          Object {
+                            "fontFamily": "\\"FabricMDL2Icons\\"",
+                          }
+                        }
                       >
                         
                       </i>
@@ -419,7 +424,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                             {
                               color: #605e5c;
@@ -432,10 +436,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                         data-icon-name="ChevronDown"
                         role="presentation"
+                        style={
+                          Object {
+                            "fontFamily": "\\"FabricMDL2Icons\\"",
+                          }
+                        }
                       >
                         
                       </i>
@@ -574,7 +582,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                           text-align: center;
                           text-decoration: none;
                           user-select: none;
-                          vertical-align: top;
                         }
                         &::-moz-focus-inner {
                           border: 0;
@@ -667,10 +674,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                         data-icon-name="Upload"
                         role="presentation"
+                        style={
+                          Object {
+                            "fontFamily": "\\"FabricMDL2Icons\\"",
+                          }
+                        }
                       >
                         
                       </i>
@@ -816,7 +827,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                             {
                               color: #605e5c;
@@ -829,10 +839,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                               margin-right: 4px;
                               margin-top: 0;
                               text-align: center;
-                              vertical-align: middle;
                             }
                         data-icon-name="ChevronDown"
                         role="presentation"
+                        style={
+                          Object {
+                            "fontFamily": "\\"FabricMDL2Icons\\"",
+                          }
+                        }
                       >
                         
                       </i>
@@ -898,7 +912,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                       text-align: center;
                       text-decoration: none;
                       user-select: none;
-                      vertical-align: top;
                     }
                     &::-moz-focus-inner {
                       border: 0;
@@ -991,10 +1004,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                           margin-right: 4px;
                           margin-top: 0;
                           text-align: center;
-                          vertical-align: middle;
                         }
                     data-icon-name="Share"
                     role="presentation"
+                    style={
+                      Object {
+                        "fontFamily": "\\"FabricMDL2Icons\\"",
+                      }
+                    }
                   >
                     
                   </i>
@@ -1081,7 +1098,6 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                         text-align: center;
                         text-decoration: none;
                         user-select: none;
-                        vertical-align: top;
                       }
                       &::-moz-focus-inner {
                         border: 0;
@@ -1174,10 +1190,14 @@ exports[`Component Examples renders CommandBar.SplitDisabled.Example.tsx correct
                             margin-right: 4px;
                             margin-top: 0;
                             text-align: center;
-                            vertical-align: middle;
                           }
                       data-icon-name="Download"
                       role="presentation"
+                      style={
+                        Object {
+                          "fontFamily": "\\"FabricMDL2Icons\\"",
+                        }
+                      }
                     >
                       
                     </i>

@@ -18,6 +18,7 @@ export interface IPeoplePickerItemWithMenuState {
  * PeoplePickerItem with an additional contextual menu.
  * @deprecated Do not use. Will be removed in Fabric 7.0
  */
+// tslint:disable-next-line:deprecation
 export class SelectedItemWithMenu extends BaseComponent<IPeoplePickerItemWithMenuProps, IPeoplePickerItemWithMenuState> {
   public refs: {
     [key: string]: any;
@@ -25,6 +26,7 @@ export class SelectedItemWithMenu extends BaseComponent<IPeoplePickerItemWithMen
 
   private _ellipsisRef = React.createRef<HTMLDivElement>();
 
+  // tslint:disable-next-line:deprecation
   constructor(props: IPeoplePickerItemWithMenuProps) {
     super(props);
     this.state = { contextualMenuVisible: false };
@@ -36,7 +38,7 @@ export class SelectedItemWithMenu extends BaseComponent<IPeoplePickerItemWithMen
       <div data-is-focusable={true} className={css('ms-PickerItem-container', styles.itemContainer)}>
         <FocusZone className={css('ms-PickerPersona-container', styles.personaContainer)}>
           <div className={css('ms-PickerItem-content', styles.itemContent)}>
-            <Persona {...item as any} presence={item.presence !== undefined ? item.presence : PersonaPresence.none} />
+            <Persona {...(item as any)} presence={item.presence !== undefined ? item.presence : PersonaPresence.none} />
           </div>
           <div ref={this._ellipsisRef} className={css('ms-PickerItem-content', styles.itemContent)}>
             <IconButton iconProps={{ iconName: 'More' }} onClick={this._onContextualMenu} />

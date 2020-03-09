@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component Examples renders Pivot.Basic.Example.tsx correctly 1`] = `
-<div>
+<div
+  aria-label="Basic Pivot Example"
+  role="toolbar"
+>
   <div
     className=
         ms-FocusZone
@@ -71,7 +74,6 @@ exports[`Component Examples renders Pivot.Basic.Example.tsx correctly 1`] = `
               text-align: center;
               text-decoration: none;
               user-select: none;
-              vertical-align: top;
             }
             &::-moz-focus-inner {
               border: 0;
@@ -241,7 +243,6 @@ exports[`Component Examples renders Pivot.Basic.Example.tsx correctly 1`] = `
               text-align: center;
               text-decoration: none;
               user-select: none;
-              vertical-align: top;
             }
             &::-moz-focus-inner {
               border: 0;
@@ -399,7 +400,6 @@ exports[`Component Examples renders Pivot.Basic.Example.tsx correctly 1`] = `
               text-align: center;
               text-decoration: none;
               user-select: none;
-              vertical-align: top;
             }
             &::-moz-focus-inner {
               border: 0;

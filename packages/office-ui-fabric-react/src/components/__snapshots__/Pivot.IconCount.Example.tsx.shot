@@ -2,7 +2,10 @@
 
 exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = `
 <div>
-  <div>
+  <div
+    aria-label="Count and Icon Pivot Example"
+    role="toolbar"
+  >
     <div
       className=
           ms-FocusZone
@@ -72,7 +75,6 @@ exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = 
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -275,7 +277,6 @@ exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = 
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -456,7 +457,6 @@ exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = 
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -637,7 +637,6 @@ exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = 
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
@@ -830,7 +829,6 @@ exports[`Component Examples renders Pivot.IconCount.Example.tsx correctly 1`] = 
                 text-align: center;
                 text-decoration: none;
                 user-select: none;
-                vertical-align: top;
               }
               &::-moz-focus-inner {
                 border: 0;
