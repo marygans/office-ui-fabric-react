@@ -37,6 +37,8 @@ const GlobalClassNames = {
 // Returns the background color of the MessageBar root element based on the type of MessageBar.
 const getRootBackground = (messageBarType: MessageBarType | undefined, palette: IPalette, semanticColors: ISemanticColors): string => {
   switch (messageBarType) {
+    case MessageBarType.info:
+      return semanticColors.infoBackground;
     case MessageBarType.error:
     case MessageBarType.blocked:
       return semanticColors.errorBackground;
