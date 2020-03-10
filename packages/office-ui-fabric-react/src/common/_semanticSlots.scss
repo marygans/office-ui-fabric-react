@@ -80,11 +80,13 @@ $menuItemTextColor: '[theme:menuItemText, default: #323130]';
 $menuItemTextHoveredColor: '[theme:menuItemTextHovered, default: #201f1e]'; 
 $errorTextColor: '[theme:errorText, default: #a4262c]'; 
 $warningTextColor: '[theme:warningText, default: #333333]'; 
+$severeWarningTextColor: '[theme:severeWarningText, default: #D83B01]'; 
 $successTextColor: '[theme:successText, default: #107C10]'; 
 $infoBackgroundColor: '[theme:infoBackground, default: #f3f2f1]'; 
 $errorBackgroundColor: '[theme:errorBackground, default: #FDE7E9]'; 
 $blockingBackgroundColor: '[theme:blockingBackground, default: #FDE7E9]'; 
 $warningBackgroundColor: '[theme:warningBackground, default: #FFF4CE]'; 
+$severeWarningBackgroundColor: '[theme:severeWarningBackground, default: #FED9CC]'; 
 $warningHighlightColor: '[theme:warningHighlight, default: #ffb900]'; 
 $successBackgroundColor: '[theme:successBackground, default: #DFF6DD]'; 
 $listTextColorColor: '[theme:listTextColor, default: #323130]';  /* @deprecated */
