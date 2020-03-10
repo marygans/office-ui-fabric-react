@@ -1460,6 +1460,7 @@ export interface IActivityItemProps extends React.AllHTMLAttributes<HTMLElement>
     onRenderIcon?: IRenderFunction<IActivityItemProps>;
     onRenderTimeStamp?: IRenderFunction<IActivityItemProps>;
     styles?: IActivityItemStyles;
+    theme?: ITheme;
     timeStamp?: string | React.ReactNode[] | React.ReactNode;
 }
 
