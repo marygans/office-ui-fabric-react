@@ -162,6 +162,10 @@ export interface ISemanticColors extends ISemanticTextColors {
    */
   warningBackground: string;
   /**
+   * Background for severe warning messages.
+   */
+  severeWarningBackground: string;
+  /**
    * Foreground color for warning highlights
    */
   warningHighlight: string;

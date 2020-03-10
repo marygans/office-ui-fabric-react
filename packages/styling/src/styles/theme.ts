@@ -278,11 +278,13 @@ function _makeSemanticColorsFromPalette(p: IPalette, isInverted: boolean, depCom
 
     errorText: !isInverted ? p.redDark : '#ff5f5f',
     warningText: !isInverted ? '#333333' : '#ffffff',
+    severeWarningText: !isInverted ? '#D83B01' : '#FCE100',
     successText: !isInverted ? '#107C10' : '#92c353',
     infoBackground: !isInverted ? p.neutralLighter : '#323130',
     errorBackground: !isInverted ? '#FDE7E9' : '#442726',
     blockingBackground: !isInverted ? '#FDE7E9' : '#442726',
     warningBackground: !isInverted ? '#FFF4CE' : '#433519',
+    severeWarningBackground: !isInverted ? '#FED9CC' : '#4F2A0F',
     warningHighlight: !isInverted ? '#ffb900' : '#fff100',
     successBackground: !isInverted ? '#DFF6DD' : '#393D1B',
 
